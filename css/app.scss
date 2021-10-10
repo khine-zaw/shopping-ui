@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Padauk:wght@400;700&display=swap');
+$primary : rgb(241, 151, 47);
+$font-family-sans-serif : 'Montserrat', 'Padauk', sans-serif;
+
+.header{
+    background-color: #ffffffb5;
+    backdrop-filter: blur(20px) contrast(130%);
+    z-index: 1005;
+}
+.main{
+    background-image: url('../img/offer.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+}
+.scroll{
+    bottom: 50px;
+    right: 50px;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
